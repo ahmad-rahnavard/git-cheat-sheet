@@ -1,8 +1,24 @@
-# GIT CHEAT SHEET
+
+
+
+# GIT CHEAT SHEET [:arrow_up:](#index)
 Git is the free and open source distributed version control system that's responsible for everything GitHub related that happens locally on your computer. This cheat sheet features the most important and commonly used Git commands for easy reference.
 
 
-## INSTALLATION & GUIS
+## Index
+- [INSTALLATION & GUIS](#installation-&-guis-arrow_up)
+- [SETUP](#setup-arrow_up)
+- [STAGE & SNAPSHOT](#stage-&-snapshot-arrow_up)
+- [BRANCH & MERGE](#branch-&-merge-arrow_up)
+- [INSPECT & COMPARE](#inspect-&-compare-arrow_up)
+- [TRACKING PATH CHANGES](#tracking-path-changes-arrow_up)
+- [IGNORING PATTERNS](#ignoring-patterns-arrow_up)
+- [SHARE & UPDATE](#share-&-update-arrow_up)
+- [REWRITE HISTORY](#rewrite-history-arrow_up)
+- [TEMPORARY COMMITS](#temporary-commits-arrow_up)
+
+
+## INSTALLATION & GUIS [:arrow_up:](#index)
 With platform specific installers for Git, GitHub also provides the ease of staying up-to-date with the latest releases of the command line tool while providing a graphical user interface for day-to-day interaction, review, and repository synchronization.
 
 #### GitHub for Windows
@@ -17,7 +33,7 @@ For Linux and Solaris platforms, the latest release is available on the official
 [http://git-scm.com](http://git-scm.com)
 
 
-## SETUP
+## SETUP [:arrow_up:](#index)
 Configuring user information used across all local repositories
 
 ```bash
@@ -36,7 +52,7 @@ git config --global color.ui auto
 ```
 
 
-## SETUP & INIT
+## SETUP & INIT [:arrow_up:](#index)
 Configuring user information, initializing and cloning repositories
 
 ```bash
@@ -50,7 +66,7 @@ git clone [url]
 ```
 
 
-## STAGE & SNAPSHOT
+## STAGE & SNAPSHOT [:arrow_up:](#index)
 Working with snapshots and the Git staging area
 
 ```bash
@@ -84,7 +100,7 @@ git commit -m “[descriptive message]”
 ```
 
 
-## BRANCH & MERGE
+## BRANCH & MERGE [:arrow_up:](#index)
 Isolating work in branches, changing context, and integrating changes
 
 ```bash
@@ -113,7 +129,7 @@ git log
 ```
 
 
-## INSPECT & COMPARE
+## INSPECT & COMPARE [:arrow_up:](#index)
 Examining logs, diffs and object information
 
 ```bash
@@ -142,7 +158,7 @@ git show [SHA]
 ```
 
 
-## TRACKING PATH CHANGES
+## TRACKING PATH CHANGES [:arrow_up:](#index)
 Versioning file removes and path changes
 
 ```bash
@@ -161,7 +177,7 @@ git log --stat -M
 ```
 
 
-## IGNORING PATTERNS
+## IGNORING PATTERNS [:arrow_up:](#index)
 Preventing unintentional staging or commiting of files
 ```
 logs/
@@ -177,7 +193,7 @@ git config --global core.excludesfile [file]
 ```
 
 
-## SHARE & UPDATE
+## SHARE & UPDATE [:arrow_up:](#index)
 Retrieving updates from another repository and updating local repos
 
 ```bash
@@ -206,7 +222,7 @@ git pull
 ```
 
 
-## REWRITE HISTORY
+## REWRITE HISTORY [:arrow_up:](#index)
 Rewriting branches, updating commits and clearing history
 
 ```bash
@@ -220,7 +236,7 @@ git reset --hard [commit]
 ```
 
 
-## TEMPORARY COMMITS
+## TEMPORARY COMMITS [:arrow_up:](#index)
 Temporarily store modified, tracked files in order to change branches
 
 ```bash
