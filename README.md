@@ -6,14 +6,14 @@ Git is the free and open source distributed version control system that's respon
 
 
 ## Index
-- [INSTALLATION & GUIS](#installation-&-guis-arrow_up)
+- [INSTALLATION & GUIS](#installation--guis-arrow_up)
 - [SETUP](#setup-arrow_up)
-- [STAGE & SNAPSHOT](#stage-&-snapshot-arrow_up)
-- [BRANCH & MERGE](#branch-&-merge-arrow_up)
-- [INSPECT & COMPARE](#inspect-&-compare-arrow_up)
+- [STAGE & SNAPSHOT](#stage--snapshot-arrow_up)
+- [BRANCH & MERGE](#branch--merge-arrow_up)
+- [INSPECT & COMPARE](#inspect--compare-arrow_up)
 - [TRACKING PATH CHANGES](#tracking-path-changes-arrow_up)
 - [IGNORING PATTERNS](#ignoring-patterns-arrow_up)
-- [SHARE & UPDATE](#share-&-update-arrow_up)
+- [SHARE & UPDATE](#share--update-arrow_up)
 - [REWRITE HISTORY](#rewrite-history-arrow_up)
 - [TEMPORARY COMMITS](#temporary-commits-arrow_up)
 
